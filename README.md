@@ -1,6 +1,6 @@
 # EsReal VSTO Classic Outlook Plugin
 
-Developed by [Ciram Consulting BV](https://ciram-consulting.com) — published as Open Source under the EsReal ORG initiative.
+Developed by [Ciram Consulting BV](https://ciram-consulting.com) - published as Open Source under the EsReal ORG initiative.
 Used in products for EsReal BV, created and maintained by Ciram Consulting BV.
 
 ---
@@ -11,7 +11,7 @@ The EsReal VSTO Classic Outlook Plugin is a Microsoft Outlook add-in that automa
 
 When you open or select an email, the plugin shows a trust panel on the right side of Outlook with real-time verification results from the EsReal vDOMAIN registry.
 
-A vDOMAIN (Verified Domain) is a domain that has been cryptographically registered and anchored in the EsReal registry — optionally confirmed on a public blockchain. This allows organisations and individuals to prove that their email domain is legitimate, verified, and tamper-evident.
+A vDOMAIN (Verified Domain) is a domain that has been cryptographically registered and anchored in the EsReal registry - optionally confirmed on a public blockchain. This allows organisations and individuals to prove that their email domain is legitimate, verified, and tamper-evident.
 
 ---
 
@@ -20,11 +20,11 @@ A vDOMAIN (Verified Domain) is a domain that has been cryptographically register
 - Automatically detects the sender domain when you select an email in Outlook
 - Queries the EsReal vDOMAIN API in real time
 - Shows a trust panel with verification results directly in Outlook
-- Supports subdomain fallback — e.g. `bosa.fgov.be` is verified via `fgov.be`
+- Supports subdomain fallback - e.g. `bosa.fgov.be` is verified via `fgov.be`
 - Detects free mail providers (Gmail, Outlook.com, etc.) and shows a warning
 - Shows blockchain anchor details when the domain is confirmed on-chain
 - Supports Enterprise mode with private vDOMAIN registries and domain request workflows
-- Configurable via Windows Registry — user settings or GPO for IT deployment
+- Configurable via Windows Registry - user settings or GPO for IT deployment
 - Available in NL, EN, FR, DE and ES
 
 ---
@@ -36,7 +36,7 @@ A vDOMAIN (Verified Domain) is a domain that has been cryptographically register
 | Developer | [Ciram Consulting BV](https://ciram-consulting.com) |
 | Protocol owner | EsReal BV |
 | Open Source initiative | EsReal ORG |
-| License | Open Source — see [LICENSE](LICENSE) |
+| License | Open Source - see [LICENSE](LICENSE) |
 
 This open source repository is maintained by Ciram Consulting BV as part of the EsReal ecosystem.
 Commercial products built on this protocol are developed by Ciram Consulting BV for EsReal BV.
@@ -54,13 +54,13 @@ Commercial products built on this protocol are developed by Ciram Consulting BV 
 
 ## Installation
 
-### Option 1 — ClickOnce installer (recommended)
+### Option 1 - ClickOnce installer (recommended)
 
 1. Right-click `trust_vsto.reg` and run as administrator *(one-time setup)*
 2. Double-click `EsRealOutlookAddin.vsto` to install
 3. Restart Outlook
 
-### Option 2 — Build from source
+### Option 2 - Build from source
 
 1. Clone this repository
 2. Open `EsRealOutlookAddin.sln` in Visual Studio 2022
@@ -71,14 +71,14 @@ Commercial products built on this protocol are developed by Ciram Consulting BV 
 
 ## Configuration
 
-The plugin reads its settings from the Windows Registry. All settings are optional — the plugin works with sensible defaults.
+The plugin reads its settings from the Windows Registry. All settings are optional - the plugin works with sensible defaults.
 
 ### Registry paths
 
 | Path | Description |
 |---|---|
 | `HKCU\SOFTWARE\EsReal\Outlook` | User settings |
-| `HKLM\SOFTWARE\Policies\EsReal\Outlook` | GPO / IT policy — overrides user settings |
+| `HKLM\SOFTWARE\Policies\EsReal\Outlook` | GPO / IT policy - overrides user settings |
 
 ### Available settings
 
@@ -172,7 +172,7 @@ A domain is considered verified only when `validation.vdomain_verified` is `true
 
 ## Privacy & compliance
 
-- The plugin only sends the sender domain to the API — never the full email address or message content
+- The plugin only sends the sender domain to the API - never the full email address or message content
 - Domain lookup results are cached locally in `%LOCALAPPDATA%\EsReal\domain_cache.json`
 - Cache is automatically invalidated when the configuration changes
 - Follow GDPR and applicable local privacy laws when deploying this plugin
@@ -194,10 +194,10 @@ The log file is written to `EsReal_debug.log` on the user's desktop and is clear
 
 ## Contact & support
 
-Ciram Consulting BV — Developer of the EsReal Protocol and Outlook Plugin
+Ciram Consulting BV - Developer of the EsReal Protocol and Outlook Plugin
 
 🌐 [ciram-consulting.com](https://ciram-consulting.com)
 
 For EsReal vDOMAIN registry and protocol information:
 
-🌐 [esreal.org](https://esreal.org) — [esreal.be](https://esreal.be)
+🌐 [esreal.org](https://esreal.org) - [esreal.be](https://esreal.be)
