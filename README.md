@@ -1,6 +1,6 @@
 # EsReal VSTO Classic Outlook Plugin
 
-Developed by Jan Muyldermans — [Ciram Consulting BV](https://ciram-consulting.com) — published as Open Source under the EsReal ORG initiative.
+Developed by Jan Muyldermans - [Ciram Consulting BV](https://ciram-consulting.com) - published as Open Source under the EsReal ORG initiative.
 Used in products for EsReal BV, created and maintained by Jan Muyldermans.
 
 ---
@@ -195,7 +195,7 @@ The log file is written to `EsReal_debug.log` on the user's desktop and is clear
 
 ## Contact & support
 
-Jan Muyldermans — [Ciram Consulting BV](https://ciram-consulting.com)
+Jan Muyldermans - [Ciram Consulting BV](https://ciram-consulting.com)
 
 For EsReal vDOMAIN registry and protocol information:
 
