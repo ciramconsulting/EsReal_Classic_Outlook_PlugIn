@@ -1,7 +1,7 @@
 # EsReal VSTO Classic Outlook Plugin
 
-Developed by [Ciram Consulting BV](https://ciram-consulting.com) - published as Open Source under the EsReal ORG initiative.
-Used in products for EsReal BV, created and maintained by Ciram Consulting BV.
+Developed by Jan Muyldermans — [Ciram Consulting BV](https://ciram-consulting.com) — published as Open Source under the EsReal ORG initiative.
+Used in products for EsReal BV, created and maintained by Jan Muyldermans.
 
 ---
 
@@ -33,12 +33,13 @@ A vDOMAIN (Verified Domain) is a domain that has been cryptographically register
 
 | Field | Info |
 |---|---|
-| Developer | [Ciram Consulting BV](https://ciram-consulting.com) |
+| Author | Jan Muyldermans |
+| Organisation | [Ciram Consulting BV](https://ciram-consulting.com) |
 | Protocol owner | EsReal BV |
 | Open Source initiative | EsReal ORG |
 | License | Open Source - see [LICENSE](LICENSE) |
 
-This open source repository is maintained by Ciram Consulting BV as part of the EsReal ecosystem.
+This open source repository is maintained by Jan Muyldermans as part of the EsReal ecosystem.
 Commercial products built on this protocol are developed by Ciram Consulting BV for EsReal BV.
 
 ---
@@ -194,9 +195,7 @@ The log file is written to `EsReal_debug.log` on the user's desktop and is clear
 
 ## Contact & support
 
-Ciram Consulting BV - Developer of the EsReal Protocol and Outlook Plugin
-
-🌐 [ciram-consulting.com](https://ciram-consulting.com)
+Jan Muyldermans — [Ciram Consulting BV](https://ciram-consulting.com)
 
 For EsReal vDOMAIN registry and protocol information:
 
